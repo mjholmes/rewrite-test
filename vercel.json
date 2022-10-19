@@ -1,6 +1,6 @@
 {
   "rewrites": [
     { "source": "/path-one", "destination": "https://webhook.site/#!/21a6c2b8-d33f-480d-99c7-3b0ce50d55b6/path-one" },
-    { "source": "/resources/:match*", "destination": "https://webhook.site/21a6c2b8-d33f-480d-99c7-3b0ce50d55b6/:match*" },
+    { "source": "/resources/:match*", "destination": "https://webhook.site/21a6c2b8-d33f-480d-99c7-3b0ce50d55b6/:match*" }
   ]
 }
