@@ -1,1 +1,18 @@
-<html><body>Static Body with rewrites</body></html>
+<html>
+<body>
+<h1>Static Body with rewrites</h1>
+
+<p>Vercel config to test rewrites:</p>
+<code>
+{
+  "rewrites": [
+    { "source": "/path-one", "destination": "https://webhook.site/#!/21a6c2b8-d33f-480d-99c7-3b0ce50d55b6/path-one" },
+    { "source": "/resources/:match*", "destination": "https://webhook.site/21a6c2b8-d33f-480d-99c7-3b0ce50d55b6/:match*" }
+  ]
+}
+</code>
+
+<p>See repo at <a href="https://github.com/mjholmes/rewrite-test">https://github.com/mjholmes/rewrite-test</a>.</p>
+
+<p><a href="https://webhook.site/#!/21a6c2b8-d33f-480d-99c7-3b0ce50d55b6/f0d6627e-848a-430b-b2d1-c6daaeb65835/1"> See webhook site https://webhook.site/#!/21a6c2b8-d33f-480d-99c7-3b0ce50d55b6/f0d6627e-848a-430b-b2d1-c6daaeb65835/1</a> for any requests to /resources/*.</p>
+</body></html>
